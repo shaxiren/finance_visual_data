@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+
+    
+</head>
+<body >
+    <div id="d9c646919b3548759a9ef13a0aa8b2ac" class="chart-container" style="width:400px; height:300px; "></div>
+    <script>
+        var chart_d9c646919b3548759a9ef13a0aa8b2ac = echarts.init(
+            document.getElementById('d9c646919b3548759a9ef13a0aa8b2ac'), 'white', {renderer: 'canvas'});
+        var option_d9c646919b3548759a9ef13a0aa8b2ac = {
+    "backgroundColor": "white",
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "gauge",
+            "title": {
+                "show": true,
+                "position": "outside",
+                "color": "black",
+                "margin": 8,
+                "fontSize": 18,
+                "fontWeight": "normal",
+                "valueAnimation": false
+            },
+            "detail": {
+                "show": true,
+                "color": "black",
+                "margin": 8,
+                "fontSize": 15,
+                "formatter": "{value}%",
+                "valueAnimation": false
+            },
+            "min": 0,
+            "max": 7.5,
+            "splitNumber": 5,
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "radius": "95%",
+            "startAngle": 225,
+            "endAngle": -45,
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "\u80a1\u503a\u6027\u4ef7\u6bd4",
+                    "value": 5.66
+                }
+            ],
+            "axisLine": {
+                "show": true,
+                "onZero": true,
+                "onZeroAxisIndex": 0,
+                "lineStyle": {
+                    "show": true,
+                    "width": 12,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid",
+                    "color": [
+                        [
+                            0.2,
+                            "blue"
+                        ],
+                        [
+                            0.4,
+                            "green"
+                        ],
+                        [
+                            0.7333333333333333,
+                            "yellow"
+                        ],
+                        [
+                            0.8666666666666667,
+                            "orange"
+                        ],
+                        [
+                            1.0,
+                            "red"
+                        ]
+                    ]
+                }
+            },
+            "axisTick": {
+                "show": false,
+                "alignWithLabel": false,
+                "inside": false
+            },
+            "axisLabel": {
+                "show": true,
+                "color": "black",
+                "distance": 12,
+                "margin": 8,
+                "fontSize": 15,
+                "formatter": "{value}%",
+                "valueAnimation": false
+            },
+            "progress": {
+                "show": false,
+                "overlap": true,
+                "width": 10,
+                "roundCap": false,
+                "clip": false
+            },
+            "anchor": {
+                "show": true,
+                "showAbove": false,
+                "size": 6,
+                "icon": "circle",
+                "offsetCenter": [
+                    0,
+                    0
+                ],
+                "keepAspect": false
+            },
+            "pointer": {
+                "show": true,
+                "length": "80%",
+                "width": 8
+            },
+            "itemStyle": {
+                "color": "orange"
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                ""
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "title": [
+        {
+            "show": true,
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ]
+};
+        chart_d9c646919b3548759a9ef13a0aa8b2ac.setOption(option_d9c646919b3548759a9ef13a0aa8b2ac);
+    </script>
+</body>
+</html>
